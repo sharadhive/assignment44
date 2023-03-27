@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    *{
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+    .main{
+      min-width: 100vb;
+      height: 720px;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .insta {
+      height: 600px;
+      width: 600px;
+      border-radius: 25%;
+      background-image: radial-gradient(circle at 33% 100%, yellow 5%, red 40%, rgb(233, 8, 173), rgb(86, 20, 200), rgb(3, 3, 152));
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .insta-inner {
+      height: 500px;
+      width: 500px;
+      border-radius: 25%;
+      border: 30px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .insta-inner2{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      border: 20px solid white;
+      /* align-items: center;
+      margin-top: 3cm;
+      margin-left: 3cm; */
+
+    }
+
+    .insta-inner::after{
+      content: "";
+      height: 25px;
+      width: 25px;
+      background-color: white;
+      position:absolute;
+      display: flex;
+      top: 6%;
+      left: 355px;
+      border-radius: 50%;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div class="main">
+  <div class="insta">
+    <div class="insta-inner">
+      <div class="insta-inner2">
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+</body>
+
+</html>
